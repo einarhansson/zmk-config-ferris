@@ -46,7 +46,7 @@
   ],[
      "&trans ","&kp SCROLL_LEFT   ","&kp MOVE_UP   ","&kp SCROLL_RIGHT   ","&trans","&trans   ","&kp LC(LS(TAB))  ","&kp RC(TAB)","&kp LG(LBKT)","&trans",
      "&kp TAB","&kp MOVE_LEFT","&kp MOVE_DOWN","&kp MOVE_RIGHT","&trans"  						,"&trans","&kp DOWN ","&kp RALT UP","&kp RCTL RIGHT","&kp LG(RBKT)",
-     "&kp LSHIFT","&mkp RCLK ","&kp SCROLL_UP","&kp SCROLL_DOWN","&kp 0"   				,"&kp RGUI","&kp HOME PG_DN ","&kp END PG_UP ","&trans","&kp RSHIFT",  
+     "&kp LSHIFT","&kp RCLK ","&kp SCROLL_UP","&kp SCROLL_DOWN","&kp 0"   				,"&kp RGUI","&kp HOME PG_DN ","&kp END PG_UP ","&trans","&kp RSHIFT",  
            "&kp 0","&trans","&trans","&kp RGUI" 
   ],[
      "&trans ","&trans","&trans","&trans","&trans","&trans","&trans","&trans","&trans","&trans" 
