@@ -30,22 +30,22 @@
                                         "&kp UNDER", "&kp PLUS",                                    "&kp LBRC","&kp RBRC"
     ],[
 		"&kp TAB","&kp C","&kp L","&kp M","&trans"						,"&trans","&kp F ","&kp U   ","&kp Z ","&kp BKSP"
-		,"&kp I","&th_tap LCTL S","&th_tap LALT R","&th_tap LGUI T","&trans" 			       	,"&trans ","&th_tap RGUI N","&th_tap RALT K","&th_tap RCTL A","&kp O"
+		,"&kp I","&th LCTL S","&th LALT R","&th LGUI T","&trans" 			       	,"&trans ","&th RGUI N","&th RALT K","&th RCTL A","&kp O"
 		,"&hs LSHIFT Q","&kp V","&kp W","&kp D","&mt LC(LS(LALT)) SPC","&kp E","&kp H ","&kp Y","&td EXCL DOT","&hs RSHIFT X",
           				"&mt LC(LS(LALT)) SPC","&trans","&trans","&kp E"
   ], [
      "&trans ","&kp ATSN  ","&td LC(LG(LS(N4))) LS(N3)","&kp DLLR","&trans","&trans","&kp LS(COMMA)","&kp LS(DOT)","&kp CARET","&trans"
-      ,"&kp TAB   ","&th_tap LCTL EQUAL   ","&th_tap LALT LA(RBKT)     ","&th_tap LGUI LA(LS(RBKT))    ","&trans" 		,"&trans","&th_tap RGUI LBRC ","&th_tap RALT RBRC","&th_tap RCTL PIPE ","&kp AMPS"
+      ,"&kp TAB   ","&th LCTL EQUAL   ","&th LALT LA(RBKT)     ","&th LGUI LA(LS(RBKT))    ","&trans" 		,"&trans","&th RGUI LBRC ","&th RALT RBRC","&th RCTL PIPE ","&kp AMPS"
         ,"&hs LSHIFT TILDE   ","&kp GRAVE","&kp LA(LBKT)","&kp LA(LS(LBKT))"  ,"&to 0","&to 2","&kp LPRN","&kp RPRN","&kp RBKT ","&kp RSHIFT"
                 ,"&to 0","&trans"  					,"&trans","&to 2"
   ],[
      "&trans","&kp C_PP","&kp C_PREV ","&kp C_NEXT ","&trans"    			,"&trans ","&kp N7","&kp N8","&kp N9","&trans"
-      ,"&kp TAB ","&trans  ","&th_tap LALT C_VOL_DN ","&th_tap LGUI C_VOL_UP ","&trans"  			,"&trans","&th_tap RGUI N4 ","&kp N5 ","&kp N6  ","&kp EQUAL"
+      ,"&kp TAB ","&trans  ","&th LALT C_VOL_DN ","&th LGUI C_VOL_UP ","&trans"  			,"&trans","&th RGUI N4 ","&kp N5 ","&kp N6  ","&kp EQUAL"
       ,"&hsl LSHIFT 4 ","&kp PRCNT","&kp SLASH","&kp STAR","&to 0","&trans","&kp N1","&kp N2","&td DOT N3 ","&kp MINUS"
               ,"&to 0","&trans"  				,"&trans","&trans"
   ],[
      "&trans ","&mwh SCROLL_LEFT   ","&mmv MOVE_UP   ","&mwh SCROLL_RIGHT   ","&trans","&trans   ","&kp LC(LS(TAB))  ","&kp RC(TAB)","&kp LG(LBKT)","&trans",
-     "&kp TAB","&mmv MOVE_LEFT","&mmv MOVE_DOWN","&mmv MOVE_RIGHT","&trans"  						,"&trans","&kp DOWN ","&th_tap RALT UP","&th_tap RCTL RIGHT","&kp LG(RBKT)",
+     "&kp TAB","&mmv MOVE_LEFT","&mmv MOVE_DOWN","&mmv MOVE_RIGHT","&trans"  						,"&trans","&kp DOWN ","&th RALT UP","&th RCTL RIGHT","&kp LG(RBKT)",
      "&kp LSHIFT","&mkp RCLK ","&mwh SCROLL_UP","&mwh SCROLL_DOWN","&to 0"   				,"&kp RGUI","&td HOME PG_DN ","&td END PG_UP ","&trans","&kp RSHIFT",  
            "&to 0","&trans","&trans","&kp RGUI" 
   ],[
