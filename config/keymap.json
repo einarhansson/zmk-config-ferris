@@ -4,10 +4,9 @@
   "layout": "",
   "layer_names": [
     "base",
-    "One SHot",
-    "NUM/Ctrl",
-    "NAvigate",
-    "Layer #4"
+    "One Shot",
+    "NUM/CTRL",
+    "Navigate"
   ],
   "layers": [
     [
@@ -15,11 +14,6 @@
                   "&kp P", "&kp BSLH", "&kp LCTRL",    "&kp A",     "&kp S",                "&kp D",     "&kp F",   "&kp G",  "&kp H",  "&kp J",
                   "&kp K",    "&kp L",  "&kp SEMI", "&kp APOS", "&kp LSHFT",                "&kp Z",     "&kp X",   "&kp C",  "&kp V",  "&kp B",
                                            "&kp N",    "&kp M",                                      "&kp COMMA", "&kp DOT"
-    ], [
-                 "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
-                                     "&trans", "&trans",                                   "&trans", "&trans"
     ], [
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
