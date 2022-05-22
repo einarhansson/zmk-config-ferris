@@ -22,14 +22,14 @@
 
         default_layer {
             bindings = <
-          &kp A       &kp      &kp W     &kp E      &kp R               &kp T      &kp Y    &kp U   &kp I   &kp O
-          &kp P  &kp BSLH  &kp LCTRL     &kp A      &kp S               &kp D      &kp F    &kp G   &kp H   &kp J
-          &kp K     &kp L   &kp SEMI  &kp APOS  &kp LSHFT               &kp Z      &kp X    &kp C   &kp V   &kp B
-                               &kp N     &kp M                                 &kp COMMA  &kp DOT
+          &kp Q   &kp W               &kp F           &kp P   &kp B               &kp T              &kp Y   &kp U   &kp I   &kp O
+          &kp A   &kp R      &mt LEFT_ALT S  &mt LEFT_GUI T   &kp G               &kp D              &kp F   &kp G   &kp H   &kp J
+          &kp X   &kp C               &kp D           &kp V   &kp Z               &kp Z              &kp X   &kp C   &kp V   &kp B
+                         &mt LEFT_ALT SPACE  &sk LEFT_SHIFT                              &sk RIGHT_CONTROL   &sl 1
             >;
         };
 
-        layer_One_SHot {
+        layer_One_Shot {
             bindings = <
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
@@ -38,7 +38,7 @@
             >;
         };
 
-        layer_NUM_Ctrl {
+        layer_NUM_CTRL {
             bindings = <
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
@@ -47,16 +47,7 @@
             >;
         };
 
-        layer_NAvigate {
-            bindings = <
-         &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-         &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-         &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans                              &trans  &trans
-            >;
-        };
-
-        layer_Layer__4 {
+        layer_Navigate {
             bindings = <
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
