@@ -6,7 +6,8 @@
     "base",
     "One Shot",
     "NUM/CTRL",
-    "Navigate"
+    "Navigate",
+    "Keyboard"
   ],
   "layers": [
     [
@@ -19,6 +20,11 @@
                    "&kp TAB",  "&kp EQUAL",      "&kp",          "&trans",            "&trans",                            "&kp",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE",               "&kp", "&kp ENTER",
                  "&kp TILDE", "&kp DOLLAR",   "&trans",             "&kp", "&kp DOUBLE_QUOTES",               "&kp LEFT_BRACKET", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_BRACKET",    "&tog 3",
                                               "&tog 0",            "&tog",                                                               "&kp RIGHT_ALT",                "&tog 2"
+    ], [
+                 "&trans", "&trans", "&trans",       "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+                 "&trans", "&trans", "&trans",       "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+                   "&tog", "&trans", "&trans",       "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+                                     "&tog 0", "&sk LEFT_GUI",                                   "&trans", "&trans"
     ], [
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
