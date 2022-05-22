@@ -50,8 +50,8 @@
         layer_Navigate {
             bindings = <
          &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-         &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-         &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans                 &kp  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans                 &kp  &trans  &trans  &trans  &trans
                          &trans  &trans                              &trans  &trans
             >;
         };

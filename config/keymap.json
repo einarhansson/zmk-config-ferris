@@ -27,8 +27,8 @@
                                                        "&tog 0",  "&sk LEFT_GUI",                                       "&kp RIGHT_ALT", "&trans"
     ], [
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
-                 "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
+                 "&trans", "&trans", "&trans", "&trans", "&trans",                  "&kp", "&trans", "&trans", "&trans", "&trans",
+                 "&trans", "&trans", "&trans", "&trans", "&trans",                  "&kp", "&trans", "&trans", "&trans", "&trans",
                                      "&trans", "&trans",                                   "&trans", "&trans"
     ], [
                  "&trans", "&trans", "&trans", "&trans", "&trans",               "&trans", "&trans", "&trans", "&trans", "&trans",
