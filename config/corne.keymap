@@ -31,10 +31,10 @@
 
         layer_One_Shot {
             bindings = <
-           &kp ESC      &kp AT  &kp HASH  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-           &kp TAB   &kp EQUAL       &kp  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-         &kp TILDE  &kp DOLLAR    &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans
-                                  &trans  &trans                              &trans  &trans
+           &kp ESC      &kp AT  &kp HASH  &kp PRINTSCREEN        &kp PERCENT                     &kp CARET         &kp AMPERSAND        &kp KP_MULTIPLY      &kp SEMICOLON  &kp COLON
+           &kp TAB   &kp EQUAL       &kp           &trans             &trans                           &kp        &kp LEFT_BRACE        &kp RIGHT_BRACE                &kp  &kp ENTER
+         &kp TILDE  &kp DOLLAR    &trans              &kp  &kp DOUBLE_QUOTES              &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &tog 3
+                                  &tog 0             &tog                                                          &kp RIGHT_ALT                 &tog 2
             >;
         };
 
