@@ -26,7 +26,7 @@
           &kp Q   &kp W               &kp F           &kp P   &kp B               &kp J              &kp L            &kp U    &kp Y  &mt LGUI(BACKSPACE) BACKSPACE
           &kp A   &kp R      &mt LEFT_ALT S  &mt LEFT_GUI T   &kp G               &kp M    &mt RIGHT_GUI N  &mt RIGHT_ALT E    &kp I                    &kp O
           &kp X   &kp C               &kp D           &kp V   &kp Z               &kp K              &kp H        &kp COMMA  &kp DOT                   &to 2
-                         &mt LEFT_ALT(LEFT_CONTROL(LEFT_SHIFT)) SPACE  &sk LEFT_SHIFT                              &sk RIGHT_CONTROL            &sl 1
+                         &mt LA(LC(LSHFT)) SPACE  &sk LEFT_SHIFT                              &sk RIGHT_CONTROL            &sl 1
             >;
         };
 
@@ -50,8 +50,8 @@
 
         layer_Navigate {
             bindings = <
-         &trans           &mwh SCROLL_LEFT &mmv MOVE_UP   &mwh SCROLL_RIGHT &mt Q H              &kp LA(LEFT_ARROW)  &kp RC(LS(TAB))  &kp LC(TAB) &kp LA(RIGHT_ARROW)   &trans
-         &mt TAB LA(TAB)  &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   &kp LGUI              &mt RGUI(LEFT_ARROW) LEFT_ARROW      &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER
+         &mt LA(F4) ESC   &mwh SCROLL_LEFT &mmv MOVE_UP   &mwh SCROLL_RIGHT &mt Q H             &kp LA(LEFT_ARROW)  &kp RC(LS(TAB))  &kp LC(TAB) &kp LA(RIGHT_ARROW)   &trans
+         &mt TAB LA(TAB)  &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   &kp LGUI            &mt RGUI(LEFT_ARROW) LEFT_ARROW      &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER
          &trans           &mkp RCLK        &mwh SCROLL_UP &mwh SCROLL_DOWN  &kp DEL             &mkp LCLK     &trans  &trans  &trans  &trans
                                                           &to 0             &trans              &kp RA  &to 1
             >;
