@@ -50,10 +50,9 @@
 
         layer_Navigate {
             bindings = <
-         &mt LA(F4) ESC   &mwh SCROLL_LEFT &mmv MOVE_UP   &mwh SCROLL_RIGHT &mt Q H             &kp LA(LEFT_ARROW)  &kp RC(LS(TAB))  &kp LC(TAB) &kp LA(RIGHT_ARROW)   &trans
-         &mt TAB LA(TAB)  &mmv MOVE_LEFT   &mmv MOVE_DOWN &mmv MOVE_RIGHT   &kp LGUI            &mt RGUI(LEFT_ARROW) LEFT_ARROW      &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER
-         &trans           &mkp RCLK        &mwh SCROLL_UP &mwh SCROLL_DOWN  &kp DEL             &mkp LCLK     &trans  &trans  &trans  &trans
-                                                          &to 0             &trans              &kp RA  &to 1
+         &mt LA(F4) ESC          &mwh SCROLL_LEFT &mmv MOVE_UP   &mwh SCROLL_RIGHT &mt Q H             &kp LA(LEFT_ARROW)                   &kp RC(LS(TAB))                  &mt RGUI(UP_ARROW) UP_ARROW    &kp LC(TAB)                        &kp LA(RIGHT_ARROW)
+         &kp LC(LG(LEFT_ARROW))  &mkp RCLK        &mwh SCROLL_UP &mwh SCROLL_DOWN  &kp DEL             &mkp LCLK                            &trans                           &trans                         &trans                             &kp LC(LG(RIGHT_ARROW))
+                                                                &to 0              &trans              &kp RA  &to 1
             >;
         };
 
