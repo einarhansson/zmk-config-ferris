@@ -80,10 +80,10 @@
 
         layer_Navigate {
             bindings = <
-         &mt LA(F4) ESC         &trans  &trans  &trans &mt Q H       &kp LA(LEFT_ARROW)              &kp RC(LS(TAB))                  &mt RGUI(UP_ARROW) UP_ARROW  &kp LC(TAB)                        &kp LA(RIGHT_ARROW)
-         &mt TAB LA(TAB)        &trans  &trans  &trans &kp LGUI      &mt RGUI(LEFT_ARROW) LEFT_ARROW &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER 
-         &kp LC(LG(LEFT_ARROW)) &kp DEL &trans  &trans &trans        &trans                          &kp PAGE_UP                      &kp PAGE_DOWN                &trans                             &kp LC(LG(RIGHT_ARROW))
-                                                &to 0  &trans        &kp RA                          &to 1
+         &mt LA(F4) ESC         &trans   &trans  &trans  &mt Q H       &kp LA(LEFT_ARROW)              &kp RC(LS(TAB))                  &mt RGUI(UP_ARROW) UP_ARROW  &kp LC(TAB)                        &kp LA(RIGHT_ARROW)
+         &mt TAB LA(TAB)        &trans   &trans  &trans  &kp LGUI      &mt RGUI(LEFT_ARROW) LEFT_ARROW &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER 
+         &kp LC(LG(LEFT_ARROW)) &kp DEL  &trans  &trans  &trans        &trans                          &kp PAGE_UP                      &kp PAGE_DOWN                &trans                             &kp LC(LG(RIGHT_ARROW))
+                                                &to 0   &trans        &kp RA                          &to 1
             >;
         };
 
