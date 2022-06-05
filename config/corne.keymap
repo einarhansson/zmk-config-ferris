@@ -43,6 +43,8 @@
             tapping-term-ms = <200>;
             bindings = <&kp Q>, <&to 5>, <&kp Q>;
         };
+
+        
     };
     
     keymap {
@@ -87,9 +89,9 @@
 
         layer_Keyboard_Function {
             bindings = <
-         &trans  &trans  &bt BT_NXT  &trans        &reset              &trans  &kp F9  &kp F10  &kp F11  &kp F12
-         &trans  &trans  &bt BT_CLR  &out OUT_TOG  &trans              &trans  &kp F5  &kp F6   &kp F7   &kp F8
-         &trans  &trans  &bt BT_PRV  &trans        &trans              &trans  &kp F1  &kp F2   &kp F3   &kp F4
+         &trans  &bt BT_SEL 2  &bt BT_NXT  &trans        &reset              &trans  &kp F9  &kp F10  &kp F11  &kp F12
+         &trans  &tbt BT_SEL 1  &bt BT_CLR  &out OUT_TOG  &trans              &trans  &kp F5  &kp F6   &kp F7   &kp F8
+         &trans  &bt BT_SEL 0  &bt BT_PRV  &trans        &trans              &trans  &kp F1  &kp F2   &kp F3   &kp F4
                                      &to 0        &trans              &trans  &trans
             >;
         };
