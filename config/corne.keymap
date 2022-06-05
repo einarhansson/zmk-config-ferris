@@ -53,14 +53,14 @@
 
         default_layer {
             bindings = <
-          &td_q   &kp W   &td_f           &kp P                   &kp B               &kp J              &kp L            &kp U            &kp Y    &mt LGUI(BACKSPACE) BACKSPACE
+          &kp Q   &kp W   &kp F           &kp P                   &kp B               &kp J              &kp L            &kp U            &kp Y    &mt LGUI(BACKSPACE) BACKSPACE
           &kp A   &kp R   &mt LEFT_ALT S  &mt LEFT_GUI T          &kp G               &kp M              &mt RIGHT_GUI N  &mt RIGHT_ALT E  &kp I    &kp O
-          &kp X   &kp C   &kp D           &kp V                   &kp Z               &td_k              &kp H            &kp COMMA        &kp DOT  &to 2
+          &kp X   &kp C   &kp D           &kp V                   &kp Z               &kp K              &kp H            &kp COMMA        &kp DOT  &to 2
                                           &mt LA(LC(LSHFT)) SPACE &sk LEFT_SHIFT      &sk RIGHT_CONTROL  &sl 1
             >;
         };
 
-        layer_One_Shot {
+        /* layer_One_Shot {
             bindings = <
            &kp ESC   &kp AT          &kp HASH          &kp PRINTSCREEN    &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp KP_MULTIPLY        &kp SEMICOLON     &kp COLON
            &kp TAB   &kp EQUAL       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans               &kp               &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp               &kp ENTER
@@ -103,7 +103,7 @@
          &kp Z &kp X &kp C &kp V      &kp B             &kp N          &kp M  &kp COMMA   &kp DOT  &kp MINUS
                            &kp SPACE  &sk RALT          &kp BACKSPACE  &to 0
             >;
-        };
+        }; */
 
     };
 };
