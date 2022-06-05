@@ -80,19 +80,19 @@
 
         layer_Navigate {
             bindings = <
-         &mt LA(F4) ESC         &trans  &trans  &trans &mt Q H             &kp LA(LEFT_ARROW)              &kp RC(LS(TAB))                  &mt RGUI(UP_ARROW) UP_ARROW  &kp LC(TAB)                        &kp LA(RIGHT_ARROW)
-         &mt TAB LA(TAB)        &trans  &trans  &trans &kp LGUI            &mt RGUI(LEFT_ARROW) LEFT_ARROW &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER 
-         &kp LC(LG(LEFT_ARROW)) &kp DEL &trans  &trans &trans              &trans                          &kp PAGE_UP                      &kp PAGE_DOWN                &trans                             &kp LC(LG(RIGHT_ARROW))
-                                                &to 0  &trans              &kp RA                          &to 1
+         &mt LA(F4) ESC         &trans  &trans  &trans &mt Q H       &kp LA(LEFT_ARROW)              &kp RC(LS(TAB))                  &mt RGUI(UP_ARROW) UP_ARROW  &kp LC(TAB)                        &kp LA(RIGHT_ARROW)
+         &mt TAB LA(TAB)        &trans  &trans  &trans &kp LGUI      &mt RGUI(LEFT_ARROW) LEFT_ARROW &mt RGUI(DOWN_ARROW) DOWN_ARROW  &mt RGUI(UP_ARROW) UP_ARROW  &mt RGUI(RIGHT_ARROW) RIGHT_ARROW  &kp ENTER 
+         &kp LC(LG(LEFT_ARROW)) &kp DEL &trans  &trans &trans        &trans                          &kp PAGE_UP                      &kp PAGE_DOWN                &trans                             &kp LC(LG(RIGHT_ARROW))
+                                                &to 0  &trans        &kp RA                          &to 1
             >;
         };
 
         layer_Keyboard_Function {
             bindings = <
-         &trans  &bt BT_SEL 2  &bt BT_NXT  &trans        &reset              &trans  &kp F9  &kp F10  &kp F11  &kp F12
-         &trans  &tbt BT_SEL 1  &bt BT_CLR  &out OUT_TOG  &trans              &trans  &kp F5  &kp F6   &kp F7   &kp F8
-         &trans  &bt BT_SEL 0  &bt BT_PRV  &trans        &trans              &trans  &kp F1  &kp F2   &kp F3   &kp F4
-                                     &to 0        &trans              &trans  &trans
+         &trans  &bt BT_SEL 2  &bt BT_NXT  &trans       &reset              &trans  &kp F9  &kp F10  &kp F11  &kp F12
+         &trans  &tbt BT_SEL 1  &bt BT_CLR &out OUT_TOG &trans              &trans  &kp F5  &kp F6   &kp F7   &kp F8
+         &trans  &bt BT_SEL 0  &bt BT_PRV  &trans       &trans              &trans  &kp F1  &kp F2   &kp F3   &kp F4
+                                           &to 0        &trans              &trans  &trans
             >;
         };
 
